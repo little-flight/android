@@ -1,0 +1,1 @@
+This script runs the project tests using Python's module runner (python -m tests). In case, extra arguments are passed, they will be passed on to the test runner. For example, you can run ./test.sh -v to run tests in verbose mode. On successful execution, it will display the test results and exit with a non-zero code if any tests fail.

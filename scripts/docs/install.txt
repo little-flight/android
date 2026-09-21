@@ -1,0 +1,1 @@
+This script installs the project dependencies using pip. You can pass any additional arguments to pip, such as specific package names or version constraints. For example, you can run `./install.sh requests` to install the `requests` library. On successful installation, it will update the project's requirements.txt file with the new dependencies.

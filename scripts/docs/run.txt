@@ -1,0 +1,1 @@
+This script runs the project using Python's module runner (`python -m`). In case, extra arguments are passed, they will be passed on to the application.

@@ -1,0 +1,1 @@
+This script checks if Python 3 is installed on your system. If Python 3 is found, it indicates that the setup is complete. Otherwise, it prompts you to install Python 3.

@@ -1,0 +1,1 @@
+export DEV_APP="src"

@@ -1,0 +1,1 @@
+This script formats the codebase using cutypy. You can pass any additional arguments to cutypy, such as specific file paths or formatting options. For example, you can run `./fmt.sh src/` to format all files in the `src` directory. On successful execution, it will format the code according to the specified style guidelines.
