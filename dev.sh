@@ -23,13 +23,12 @@ dev() {
     return 1
   fi
 
-  COMMAND_HELP=$(echo "$COMMAND" | grep "^help$")
-  if [ -n "$COMMAND_HELP" ]; then
-    __guide $@
+  if [ "$COMMAND" = "help" ]; then
+    __guide "$@"
     return $?
   fi
 
-  "$SCRIPTS_DIR/$COMMAND.sh" "$@"
+  bash "$SCRIPTS_DIR/$COMMAND.sh" "$@"
   return $?
 }
 
