@@ -29,7 +29,7 @@ jobs:
 
       - name: Run publish script
         env:
-          KEYSTORE_FILE: ${{ runner.temp }}/little-flight-release.jks
+          KEYSTORE_FILE: ${{ secrets.KEYSTORE_FILE }}
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
