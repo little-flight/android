@@ -14,8 +14,8 @@
 
 ## Contributors
 
-<a href="https://github.com/little-flight/little-flight/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=little-flight/little-flight" />
+<a href="https://github.com/little-flight/android/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=little-flight/android" />
 </a>
 
 ## License
